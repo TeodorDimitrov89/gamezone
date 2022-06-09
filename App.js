@@ -1,4 +1,5 @@
 import { useFonts } from "expo-font";
+import Navigator from "./routes/homeStack";
 
 import Home from "./screens/Home";
 
@@ -11,7 +12,7 @@ const App = () => {
   if (!loaded) {
     return null;
   }
-  return <Home />;
+  return <Navigator />;
 };
 
 export default App;
