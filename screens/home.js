@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { View, StyleSheet, FlatList, TouchableOpacity } from "react-native";
 import ListItem from "../components/ListItem";
+import Card from "../shared/Card";
 import { globalStyles } from "../styles/global";
 
 const reviewList = [
@@ -32,7 +33,9 @@ const Home = ({ navigation }) => {
       <TouchableOpacity
         onPress={() => navigation.navigate("ReviewDetails", { ...item })}
       >
-        <ListItem {...item} />
+        <Card>
+          <ListItem {...item} />
+        </Card>
       </TouchableOpacity>
     );
   };

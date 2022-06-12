@@ -1,10 +1,11 @@
 import { Text, View, StyleSheet } from "react-native";
-import { globalStyles } from "../styles/global";
+// import { globalStyles } from "../styles/global";
 
 const ListItem = ({ title }) => {
   return (
-    <View style={styles.item}>
-      <Text style={[globalStyles.titleText, styles.itemTitle]}>{title}</Text>
+    <View>
+      {/* <Text style={[globalStyles.titleText, styles.itemTitle]}>{title}</Text> */}
+      <Text>{title}</Text>
     </View>
   );
 };

@@ -11,11 +11,11 @@ const DrawerNavigator = () => {
         headerStyle: { backgroundColor: "#433934" },
         headerTintColor: "#ffffff",
         headerTitleAlign: "center",
-        sceneContainerStyle: { backgroundColor: "#69605b" },
+        // sceneContainerStyle: { backgroundColor: "#69605b" },
         drawerContentStyle: { backgroundColor: "#3f2f25" },
         drawerInactiveTintColor: "white",
-        drawerActiveBackgroundColor: "#ac9f98",
-        drawerActiveTintColor: "#8f522c",
+        // drawerActiveBackgroundColor: "#ac9f98",
+        // drawerActiveTintColor: "#8f522c",
       }}
     >
       <Drawer.Screen
